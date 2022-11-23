@@ -10,7 +10,7 @@ REBUG 4.84.2 REX is required to install and use Petitboot (OtherOS++), however i
 # How to install Petitboot and RedRibbon GNU/Linux
 Its pretty simple to install, really. First you'll need two flash drives, and depending on your model, a USB hub. 
 And you'll need a keyboard and mouse, obvoiusly. 
-Download the Petitboot image for your model, if you dont know what model is a NAND or a NOR, look at this [Table](https://www.psdevwiki.com/ps3/SKU_Models "PS3DevWiki | SKU Models)
+Download the Petitboot image for your model, if you dont know what model is a NAND or a NOR, look at this: https://www.psdevwiki.com/ps3/SKU_Models
 Once you know your models flash type, grab either the `dtbimage.ps3.bin` (NOR) or `dtbimage.ps3.bin.minimal` (NAND). Put that on a USB. Next, grab the REBUG 4.84.2 REX PUP from the `REBUG` folder in the repo. Put that on a USB in `/PS3/UPDATE`. Go to the console, and plug the USB into it. If you are on REBUG already, skip down to `Installing Petitboot and RedRibbon`. If you are on EVILNAT, you will need to enable QA in CFW Tools: `Custom Firmware Tools > COBRA Tools > QA Tools > Enable QA`.
 After its enabled, reboot and go to the System catagory on the XMB, and scroll all the way down. Now do this button combo: `L1+L2+R1+R2+L3+DPAD DOWN`. Enter Debug Settings and enable `System Update Debug`. Once thats done install REBUG as you would any CFW. Now that its installed lets get Petitboot and RedRibbon up and running!
 
