@@ -5,7 +5,7 @@ Repo of some outdated and new Linux stuff for the PLAYSTATION3
 I am not the auther or creator of any of this, this is just a archive. 
 
 # How to use these tools
-REBUG 4.84.2 REX is required to install and use Petitboot (OtherOS++), however if you want to go the old rout use the older files at your own risk!
+REBUG 4.84.2 REX is required to install and use Petitboot (OtherOS++), however if you want to go the old rout use the older files at your own risk! Side note: we have NAND testers for EVILNAT 4.89.3, so when that releases i'll go thru the steps to install it there :D
 
 # How to install Petitboot and RedRibbon GNU/Linux
 Its pretty simple to install, really. First you'll need two flash drives, and depending on your model, a USB hub. 
