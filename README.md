@@ -2,7 +2,7 @@
 Repo of some outdated and new Linux stuff for the PLAYSTATION3
 
 # Disclamer and notes
-I am not the auther or creator of any of this, this is just a archive. 
+I am not the auther or creator of any of this, this is just a archive. (Also, to access USBs in Petitboot's BusyBox shell, use `petitboot/etc/tmp/sda` for NORs, and `petitboot/etc/tmp/dda` for NANDs
 
 # How to use these tools
 REBUG 4.84.2 REX is required to install and use Petitboot (OtherOS++), however if you want to go the old rout use the older files at your own risk! Side note: we have NAND testers for EVILNAT 4.89.3, so when that releases i'll go thru the steps to install it there :D
