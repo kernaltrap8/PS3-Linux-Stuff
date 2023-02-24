@@ -2,13 +2,15 @@
 Repo of some outdated and new Linux stuff for the PLAYSTATION3
 
 # Disclamer and notes
-I am not the auther or creator of any of this, this is just a archive. (Also, to access USBs in Petitboot's BusyBox shell, use `petitboot/etc/tmp/sda` for NORs, and `petitboot/etc/tmp/dda` for NANDs, these are paths btw, so `cd` into them.)
+I am not the author or creator of any of this, this is just a archive. (Also, to access USBs in Petitboot's BusyBox shell, use `petitboot/etc/tmp/sda` for NORs, and `petitboot/etc/tmp/dda` for NANDs, these are paths btw, so `cd` into them.)
 
 # External downloads
 YellowDogLinux for Slims and Phats (KDE): https://archive.midnightchannel.net/SonyPS/Firmware/download/5138ddeb5df7c0a8b9d271839822d64c/yellowdog-6.1-ppc-DVD_20090201_NEW_PS3.iso
 
 # How to use these tools
 REBUG 4.84.2 REX is required to install and use Petitboot (OtherOS++), however if you want to go the old rout use the older files at your own risk! Side note: we have NAND testers for EVILNAT 4.89.3, so when that releases i'll go thru the steps to install it there :D
+
+EVILNAT 4.89.3 PEX/DPEX: https://mega.nz/folder/NQN2HDAZ#gVvcyARer28dIB3nwaLjuQ
 
 # How to install Petitboot and RedRibbon GNU/Linux
 Its pretty simple to install, really. First you'll need two flash drives, and depending on your model, a USB hub. 
