@@ -2,7 +2,7 @@
 Repo of some outdated and new Linux stuff for the PLAYSTATION3
 
 # Disclamer and notes
-I am not the author or creator of any of this, this is just a archive. (Also, to access USBs in Petitboot's BusyBox shell, use `petitboot/etc/tmp/sda` for NORs, and `petitboot/etc/tmp/dda` for NANDs, these are paths btw, so `cd` into them.)
+I am not the author or creator of any of this, this is just a archive. (Also, to access USBs in Petitboot's BusyBox shell, use `tmp/petitboot/mnt/sda1` for NORs, and `tmp/petitboot/mnt/sdd1` for NANDs, these are paths btw, so `cd` into them.)
 
 # External downloads
 YellowDogLinux for Slims and Phats (KDE): https://archive.midnightchannel.net/SonyPS/Firmware/download/5138ddeb5df7c0a8b9d271839822d64c/yellowdog-6.1-ppc-DVD_20090201_NEW_PS3.iso
