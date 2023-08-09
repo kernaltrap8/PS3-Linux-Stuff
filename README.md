@@ -32,3 +32,22 @@ This was made possible by REBUG Team, as well as Habib, Geohot, EVILNAT, and oth
 Thanks everyone, and have a great day
 
 James
+
+# UPDATE - August 9th, 2023
+so a little update on my ps3linux stuff i've been doing
+
+as most of you should know, im trying to get SYSCON access under linux, and i still dont know if this is possible. however, i have figured out how to send commands to the hypervisor
+
+i didnt know this, but graf already made tools to send commands to LV1 (hence the device file ps3hvcall in /dev/) and i didnt see the tool before because its only visible to root. i was able to send syscall 255 (lv1_panic) and the console shut off, which is what is supposed to happen (if watchdog crashes syscon shuts off 12v) however i still want to be able to get the console in to STANDBY, or to just shut off 12v and not the whole PSU. you might ask "but cant you shut the console off in linux already? why do all of this" 
+
+well, its because we cant get into standby, and thats what i want. whenever i start the RE on LV2 i will be able to figure out how it handles the shutdown process in VSH, and hopefully now with hypervisor access it will be a piece of cake getting correct shutdown in linux.
+
+if you want to do this yourself, boot into linux (may also work in BusyBox, im looking at the kboot image right now) and use the command ps3lv1call, followed by the call you want to send. most calls will fail, unfortunately. 
+
+after the console shut off it wasn't in standby, so out of curiosity i pressed the power button.
+
+it went into standby.
+
+i dont know what this means exactly, but i have hopes for the future with the LV2 decomp project.
+
+thanks everyone for sticking with me over the past 5 months.
